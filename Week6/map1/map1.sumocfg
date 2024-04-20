@@ -1,0 +1,15 @@
+<configuration>
+    <input>
+        <!-- Đường dẫn tới tệp net.xml -->
+        <net-file value="map1.net.xml"/>
+        
+        <!-- Đường dẫn tới tệp rou.xml -->
+        <route-files value="map1.rou.xml"/>
+    </input>
+    
+    <!-- Thiết lập thời gian mô phỏng (giây) -->
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+</configuration>

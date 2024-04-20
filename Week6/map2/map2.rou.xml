@@ -1,0 +1,30 @@
+<routes>
+    <!-- Routing cho xe o to -->
+    <vType id="car" type="passenger" length="8" accel="0.3" decel="1.0" sigma="1.0"/>
+    <flow id="carflow" type="car" begin="0" end="0" number="10" from="gneE135" to="gneE716"/>
+
+    <vType id="car1" type="passenger" length="8" accel="0.3" decel="1.0" sigma="1.0"/>
+    <flow id="carflow1" type="car1" begin="0" end="0" number="5" from="gneE167" to="gneE710"/>
+
+    <!-- Routing cho nguoi di bo -->
+    <vType id="pedestrian" vClass="pedestrian" guiShape="pedestrian/walking" length="2.0" width="0.5" height="1.7" color="1,1,0"/>
+    <flow id="personflow" type="pedestrian" begin="0" end="0" number="5" from="gneE180" to="gneE188"/>
+
+    <vType id="pedestrian1" vClass="pedestrian" guiShape="pedestrian/walking" length="2.0" width="0.5" height="1.7" color="1,1,0"/>
+    <flow id="personflow1" type="pedestrian1" begin="0" end="0" number="5" from="gneE233" to="gneE212"/>
+
+    <vType id="pedestrian2" vClass="pedestrian" guiShape="pedestrian/walking" length="2.0" width="0.5" height="1.7" color="1,1,0"/>
+    <flow id="personflow2" type="pedestrian2" begin="0" end="0" number="10" from="gneE236" to="gneE332"/>
+
+    <vType id="pedestrian3" vClass="pedestrian" guiShape="pedestrian/walking" length="2.0" width="0.5" height="1.7" color="1,1,0"/>
+    <flow id="personflow3" type="pedestrian3" begin="0" end="0" number="10" from="gneE230" to="gneE187"/>
+
+    <vType id="pedestrian4" vClass="pedestrian" guiShape="pedestrian/walking" length="2.0" width="0.5" height="1.7" color="1,1,0"/>
+    <flow id="personflow4" type="pedestrian4" begin="0" end="0" number="5" from="gneE333" to="gneE239"/>
+
+    <vType id="pedestrian5" vClass="pedestrian" guiShape="pedestrian/walking" length="2.0" width="0.5" height="1.7" color="1,1,0"/>
+    <flow id="personflow5" type="pedestrian5" begin="0" end="0" number="5" from="gneE387" to="gneE339"/>
+
+    <vType id="pedestrian6" vClass="pedestrian" guiShape="pedestrian/walking" length="2.0" width="0.5" height="1.7" color="1,1,0"/>
+    <flow id="personflow6" type="pedestrian6" begin="0" end="0" number="8" from="gneE441" to="gneE393"/>
+</routes>
